@@ -50,7 +50,15 @@
 // console.log("names: ", names);
 // console.log("resultRevers: ", resultRevers);
 
+// split() {не мутирующий} - метод для работы со строками, преобразует строку в массив, с выбранным разделителем
 
+// const str = 'ab-cd-ef';       // ab-cd-ef
+// const res = str.split('-');    // ['ab', 'cd', 'ef']
+// const resParam = str.split('-', 2) //вторым параметром можно указать сколько элементов будет в массиве
+//
+// console.log('str: ', str)
+// console.log('result: ', res);
+// console.log('result: ', resParam);
 
 
 
