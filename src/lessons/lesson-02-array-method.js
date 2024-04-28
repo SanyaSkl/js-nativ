@@ -32,7 +32,13 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+// unshift() - добавляет 1 или нескколько элементов в начало массива
 
+// const names = ['Alex', 'Bob', 'Ivan', 'Sasha']; // ['Olga', 'Anna', 'Alex', 'Bob', 'Ivan', 'Sasha']
+// const unshiftResult = names.unshift('Olga', 'Anna'); // 6
+//
+// console.log("names: ", names);
+// console.log("unshiftResult: ", unshiftResult);
 
 
 
