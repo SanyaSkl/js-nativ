@@ -40,7 +40,15 @@
 // console.log("names: ", names);
 // console.log("unshiftResult: ", unshiftResult);
 
+// revers () - меняет порядок элементов в массиве на обратный
 
+// const names = ['Alex', 'Bob', 'Ivan', 'Sasha']; // ['Sasha', 'Ivan', 'Bob', 'Alex']
+//
+// const namesCopy = [ ...names ];  //иммутабельная работа с массивом (создание копии)
+// const  resultRevers = namesCopy.reverse()
+//
+// console.log("names: ", names);
+// console.log("resultRevers: ", resultRevers);
 
 
 
