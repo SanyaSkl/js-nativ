@@ -104,4 +104,4 @@
 //
 // const resInfinity = res.flat(Infinity);
 
-//console.log('resInfinity: ' resInfinity);
+//console.log('resInfinity: ' resInfinity)
