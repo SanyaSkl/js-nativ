@@ -60,7 +60,24 @@
 // console.log('result: ', res);
 // console.log('result: ', resParam);
 
+// join() - объединяет массив элементов в строку через указанный разделитель
 
+// const names = ['Alex', 'Bob', 'Ivan', 'Sasha']; // ['Alex', 'Bob', 'Ivan', 'Sasha']
+// const res = names.join('-'); // Alex-Bob-Ivan-Sasha
+//
+// console.log('names: ', names);
+// console.log('result: ', res);
+
+
+
+//////////////////////////////////// пример: сделать reverse строки ////////////////////////////////
+
+// const tel = "123456789"
+// const result = tel.split('').reverse().join('');
+//
+// console.log('result: ', result);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
