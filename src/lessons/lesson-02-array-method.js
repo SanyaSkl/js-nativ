@@ -89,3 +89,19 @@
 //
 // console.log(res);
 
+// flat() - если пустой, расскрывает один уровень вложенности
+
+// const arr1 = [1, 2, 3, [4, 5, 6,[7, 8, 9]]];
+// const arr2 = [16, 17, 18,19, 20, 21];
+// const arr3 = [22, 23, 24];
+//
+// const res = arr1.concat(arr2, arr3);
+//
+// console.log('res: ', res);
+//
+// const res1 = res.flat();
+// console.log('res1: ', res1);
+//
+// const resInfinity = res.flat(Infinity);
+
+//console.log('resInfinity: ' resInfinity);
