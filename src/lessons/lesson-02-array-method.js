@@ -134,3 +134,12 @@
 // });
 //
 // console.log(res); //undefined
+
+// includes() - проверяет наличие элемента в массиве
+
+// const arr = [1, 2, 3, 4, 5, 6];
+// const res = arr.includes(3);
+// const noValue = arr.includes(10);
+//
+// console.log('res: ', res);  //true
+// console.log('noValue: ', noValue); //false
