@@ -152,3 +152,27 @@
 // const res = words.filter((el) => el.length >= 6);
 //
 // console.log('res: ', res); // [ 'testvariable', 'purple', 'plants', 'Poland' ]
+
+// sort() - метод для сортивки, сортирует на месте (мутабельный)
+
+// const names = ['Donald', 'alex', 'Alex'];
+// console.log(names.sort()); // [ 'Alex', 'Donald', 'alex' ]
+
+//const numbers = [1, 90, 2, 4, -1000, 56, 87];
+
+// const compareFunction = (a, b) => {
+//     if (a > b) {
+//         return 12; // переставляем наши элементы
+//     } else {
+//         return -12; // не переставляем
+//     }
+// };
+
+// console.log(numbers.sort(compareFunction)); // [-1000, 1, 2, 4, 56, 87, 90]
+
+// const res = numbers.sort((a,b) => a - b);
+// console.log('res: ', res); // по возрастанию [-1000, 1, 2, 4, 56, 87, 90]
+
+// const res = numbers.sort((a,b) => b - a);
+// console.log('res: ', res); // по убыванию [90, 87, 56, 4, 2, 1, -1000]
+
