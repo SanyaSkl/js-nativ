@@ -105,3 +105,17 @@
 // const resInfinity = res.flat(Infinity);
 
 //console.log('resInfinity: ' resInfinity)
+
+// forEach() - Array.foEach(function(el, index, array) {
+//  код для выполнения
+// }
+
+// const arr = [1, 2, 3, 4, 5];
+// let sum = 0;
+//
+// arr.forEach(function(elem) {
+//     sum += elem; // sum = sum + elem
+// })
+//
+// console.log('sum: ', sum) // 15
+
