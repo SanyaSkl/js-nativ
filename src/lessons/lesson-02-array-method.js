@@ -119,3 +119,18 @@
 //
 // console.log('sum: ', sum) // 15
 
+// find() - метод массива возвращает первый элемент согласно переданному условию, если эл-та нет - undefined
+
+// const words = ['abs', 'testvariable', 'peopl', 'apple', 'test'];
+// const res = words.find(function (el){
+//     return el.length === 5;
+// });
+//
+// console.log(res); //peopl
+
+// const words = ['abs', 'testvariable', 'test'];
+// const res = words.find(function (el){
+//     return el.length === 5;
+// });
+//
+// console.log(res); //undefined
