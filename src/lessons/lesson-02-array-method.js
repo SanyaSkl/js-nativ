@@ -143,3 +143,12 @@
 //
 // console.log('res: ', res);  //true
 // console.log('noValue: ', noValue); //false
+
+//filter() - возвращает новый массив элементов, согласно переданному условию в коллбеке.
+// иммутабельный метод при вызове создает новый массив элементов
+
+// const words = ['abs', 'testvariable', 'test', 'purple', 'plants', 'beer', 'Poland'];
+//
+// const res = words.filter((el) => el.length >= 6);
+//
+// console.log('res: ', res); // [ 'testvariable', 'purple', 'plants', 'Poland' ]
