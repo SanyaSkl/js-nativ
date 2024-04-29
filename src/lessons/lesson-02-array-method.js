@@ -176,3 +176,34 @@
 // const res = numbers.sort((a,b) => b - a);
 // console.log('res: ', res); // по убыванию [90, 87, 56, 4, 2, 1, -1000]
 
+// map() - применяет заданные условия для каждого элемента массива, создавая новый массив.
+
+// const users1 = [
+//   {
+//     id: 1,
+//     name: 'Bob', //["Bob"]
+//     isStudent: true,
+//   },
+//   {
+//     id: 2,
+//     name: 'Alex', //["Bob", "Alex"]
+//     isStudent: true,
+//   },
+//   {
+//     id: 3,
+//     name: 'Anna', // //["Bob", "Alex", "Anna"]
+//     isStudent: true,
+//   },
+//   {
+//     id: 4,
+//     name: 'Donald', // // //["Bob", "Alex", "Anna", "Donald"]
+//     isStudent: false,
+//   },
+// ];
+//
+// const users = users1.map((user) => user.name);
+// console.log('users: ', users)
+
+
+
+
