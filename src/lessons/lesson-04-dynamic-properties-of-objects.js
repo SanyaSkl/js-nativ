@@ -144,27 +144,27 @@ let fruit = {
 
 // recursion
 
-const user = {
-    id: 1,
-    name: 'Bob',
-    age: 56,
-    social_network: 'linkIn',
-    country: {
-        city: 'Toronto'
-    }
-};
-
-function getAllKeys(obj) {
-    let keys = Object.keys(obj);
-
-    for(const key of keys) {
-        if(typeof obj[key] === 'object' && obj[key] !== null) {
-            keys = keys.concat(getAllKeys(obj[key]));
-        }
-    }
-
-    return keys;
-}
-
-const result = getAllKeys(user);
-console.log('result ', result); // result  [ 'id', 'name', 'age', 'social_network', 'country', 'city' ]
+// const user = {
+//     id: 1,
+//     name: 'Bob',
+//     age: 56,
+//     social_network: 'linkIn',
+//     country: {
+//         city: 'Toronto'
+//     }
+// };
+//
+// function getAllKeys(obj) {
+//     let keys = Object.keys(obj);
+//
+//     for(const key of keys) {
+//         if(typeof obj[key] === 'object' && obj[key] !== null) {
+//             keys = keys.concat(getAllKeys(obj[key]));
+//         }
+//     }
+//
+//     return keys;
+// }
+//
+// const result = getAllKeys(user);
+// console.log('result ', result); // result  [ 'id', 'name', 'age', 'social_network', 'country', 'city' ]
